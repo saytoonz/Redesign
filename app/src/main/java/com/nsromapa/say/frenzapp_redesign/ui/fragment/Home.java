@@ -1,7 +1,6 @@
-package com.nsromapa.say.frenzapp_redesign.fragment;
+package com.nsromapa.say.frenzapp_redesign.ui.fragment;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,12 +16,16 @@ import com.google.android.material.bottomnavigation.LabelVisibilityMode;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.nsromapa.say.bottomnav.view.CurvedBottomNavigationView;
 import com.nsromapa.say.frenzapp_redesign.R;
+import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Chats;
+import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Feeds;
+import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Stories;
+import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Video;
 
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
 
-import static com.nsromapa.say.frenzapp_redesign.MainActivity.toolbar;
+import static com.nsromapa.say.frenzapp_redesign.ui.activities.MainActivity.toolbar;
 
 
 public class Home extends Fragment {

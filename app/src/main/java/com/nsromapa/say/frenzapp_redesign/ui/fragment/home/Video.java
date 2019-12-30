@@ -1,19 +1,21 @@
-package com.nsromapa.say.frenzapp_redesign.fragment;
+package com.nsromapa.say.frenzapp_redesign.ui.fragment.home;
 
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.nsromapa.say.frenzapp_redesign.R;
+import com.nsromapa.say.frenzapp_redesign.models.Post;
+
+import java.util.List;
 
 
 public class Video extends Fragment {
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

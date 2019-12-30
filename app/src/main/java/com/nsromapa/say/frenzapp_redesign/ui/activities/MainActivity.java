@@ -1,4 +1,4 @@
-package com.nsromapa.say.frenzapp_redesign;
+package com.nsromapa.say.frenzapp_redesign.ui.activities;
 
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
@@ -14,7 +14,8 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
-import com.nsromapa.say.frenzapp_redesign.fragment.Home;
+import com.nsromapa.say.frenzapp_redesign.R;
+import com.nsromapa.say.frenzapp_redesign.ui.fragment.Home;
 import com.nsromapa.say.frenzapp_redesign.menu.DrawerAdapter;
 import com.nsromapa.say.frenzapp_redesign.menu.DrawerItem;
 import com.nsromapa.say.frenzapp_redesign.menu.SimpleItem;

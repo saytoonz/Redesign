@@ -1,4 +1,4 @@
-package com.nsromapa.say.frenzapp_redesign.fragment;
+package com.nsromapa.say.frenzapp_redesign.ui.fragment.home;
 
 import android.os.Bundle;
 
