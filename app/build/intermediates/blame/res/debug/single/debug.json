@@ -16,12 +16,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxhdpi\\ic_cart_outline_grey600_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_toast_frame.9.png.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-xxhdpi-v4\\toast_frame.9.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_toast_frame.9.png.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-xxhdpi-v4\\toast_frame.9.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_manage.xml.flat",
@@ -116,32 +116,32 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_close_white_24dp.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_flash.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_flash.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\layout\\toast_layout.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_flash.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_flash.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_error_outline_white_24dp.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-mdpi-v4\\ic_error_outline_white_24dp.png"
     },
     {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\layout\\toast_layout.xml"
+    },
+    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu_white_24dp.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_menu_white_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_gallery.png.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_gallery.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_public_black_24dp.xml.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_public_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_gallery.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_gallery.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_forum.xml.flat",
@@ -232,16 +232,16 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_mute_light.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_check_white_24dp.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-anydpi-v21\\ic_check_white_24dp.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_star_white_24dp.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\f7153f48d47acd74cfa82bba8f90f035\\materialfavoritebutton-0.1.4\\res\\drawable-xhdpi-v4\\ic_star_white_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_check_white_24dp.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-anydpi-v21\\ic_check_white_24dp.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_storage_white_24dp.png.flat",
@@ -308,12 +308,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\xml\\file_provider.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_default_user_art_g_inverse.xml.flat",
@@ -344,12 +344,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_comment_blue.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_suggestion_background.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\rounded_suggestion_background.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_time.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_time.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_suggestion_background.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\rounded_suggestion_background.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -368,12 +368,12 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_star_black_24dp.png.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\f7153f48d47acd74cfa82bba8f90f035\\materialfavoritebutton-0.1.4\\res\\drawable-hdpi-v4\\ic_star_black_24dp.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_star_black_24dp.png.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\f7153f48d47acd74cfa82bba8f90f035\\materialfavoritebutton-0.1.4\\res\\drawable-hdpi-v4\\ic_star_black_24dp.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -400,24 +400,24 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-anydpi-v21\\ic_info_outline_white_24dp.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_star_white_24dp.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\f7153f48d47acd74cfa82bba8f90f035\\materialfavoritebutton-0.1.4\\res\\drawable-xxhdpi-v4\\ic_star_white_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\df2ac4fe6b88cbdd1c862077d2fdf1ec\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\df2ac4fe6b88cbdd1c862077d2fdf1ec\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_connection_status_on_80.png.flat",
@@ -452,16 +452,16 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-hdpi\\ic_add_white_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\xml_preference_settings.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\xml\\preference_settings.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\color-v23\\abc_tint_default.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\xml_preference_settings.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\xml\\preference_settings.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logout_grey600_24dp.png.flat",
@@ -548,12 +548,12 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\color\\mtrl_chip_close_icon_tint.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\df2ac4fe6b88cbdd1c862077d2fdf1ec\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -672,20 +672,20 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xhdpi\\ic_search_white_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_unfriend.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_unfriend.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_tick_white_24dp.xml.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_done_tick_white_24dp.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_unfriend.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_unfriend.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_error_outline_white_24dp.xml.flat",
@@ -700,12 +700,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxhdpi\\ic_alarm_black_24dp.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_white_24dp.png.flat",
@@ -748,12 +748,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\top_shadow.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_clear_white_24dp.png.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-xxxhdpi-v4\\ic_clear_white_24dp.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_clear_white_24dp.png.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-xxxhdpi-v4\\ic_clear_white_24dp.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_star_border_black_24dp.png.flat",
@@ -816,12 +816,12 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_more_vert_white_24dp.png.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxhdpi\\ic_more_vert_white_24dp.png"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_error_outline_white_24dp.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\3038e8b91908fd78e806947bc9590315\\jetified-Toasty-1.4.2\\res\\drawable-hdpi-v4\\ic_error_outline_white_24dp.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_more_vert_white_24dp.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxhdpi\\ic_more_vert_white_24dp.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -860,12 +860,12 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_17.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\gradient_17.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_speed.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-mdpi\\ic_speed.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_17.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\gradient_17.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_background.xml.flat",
@@ -880,12 +880,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\gradient_1.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat__24dp.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_chat__24dp.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_copy.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_copy.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat__24dp.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_chat__24dp.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -900,12 +900,12 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\textview_tab_style_blue.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_bg_color_selector.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\color\\mtrl_btn_bg_color_selector.xml"
-    },
-    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_setting_flat_black.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_setting_flat_black.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_bg_color_selector.xml.flat",
+        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\color\\mtrl_btn_bg_color_selector.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",

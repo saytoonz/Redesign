@@ -242,7 +242,6 @@ public class PostVideosAdapter extends PagerAdapter {
         final View vBgLike = videoLayout.findViewById(R.id.vBgLike);
         final ImageView ivLike = videoLayout.findViewById(R.id.ivLike);
 
-
             final GestureDetector detector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
                 @Override
                 public boolean onDown(MotionEvent e) {

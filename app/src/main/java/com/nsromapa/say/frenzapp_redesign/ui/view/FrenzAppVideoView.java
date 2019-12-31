@@ -24,8 +24,6 @@ public class FrenzAppVideoView extends RelativeLayout implements TextureView.Sur
     private MediaPlayer mediaPlayer;
     private boolean isPlaying = false;
 
-    private OnCompletionListener onCompletionListener;
-
     public FrenzAppVideoView(Context context) {
         super(context);
         init(context);
@@ -42,7 +40,6 @@ public class FrenzAppVideoView extends RelativeLayout implements TextureView.Sur
     }
 
     public void setOnCompletionListener(OnCompletionListener onCompletionListener) {
-        this.onCompletionListener = onCompletionListener;
     }
 
     public void setVideo(MultipleVideos video) {

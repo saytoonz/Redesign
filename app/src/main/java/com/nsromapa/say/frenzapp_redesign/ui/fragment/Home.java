@@ -25,6 +25,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
 
+import static com.nsromapa.say.frenzapp_redesign.ui.activities.MainActivity.mCurrentFragment;
 import static com.nsromapa.say.frenzapp_redesign.ui.activities.MainActivity.toolbar;
 
 
@@ -33,6 +34,7 @@ public class Home extends Fragment {
     private CurvedBottomNavigationView bottom_navigation_view;
     private FloatingActionButton fab_news_feed;
     private static final String EXTRA_TEXT = "text";
+    private Fragment mActiveFragment;
 
     public static Home createFor(String text) {
         Home fragment = new Home();
@@ -49,7 +51,9 @@ public class Home extends Fragment {
         bottom_navigation_view = view.findViewById(R.id.bottom_navigation_view);
         fab_news_feed = view.findViewById(R.id.fab_news_feed);
         setDash(bottom_navigation_view);
-        showFragment(new Feeds(),"Feeds");
+        mActiveFragment = new Feeds();
+        showFragment(mActiveFragment,"Feeds");
+
         return view;
     }
 
@@ -113,7 +117,9 @@ public class Home extends Fragment {
         toolbar.setTitle(title);
         Objects.requireNonNull(getActivity())
                 .getSupportFragmentManager().beginTransaction()
+                .remove(mActiveFragment)
                 .replace(R.id.main_container, fragment)
                 .commit();
+        mActiveFragment = fragment;
     }
 }

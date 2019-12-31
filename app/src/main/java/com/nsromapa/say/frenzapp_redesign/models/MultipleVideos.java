@@ -1,18 +1,12 @@
 package com.nsromapa.say.frenzapp_redesign.models;
 
 
-public class MultipleVideos extends Info {
+public class MultipleVideos {
     private String urlVideo;
     private String urlVideoLocal;
     private int seekTo;
 
     public MultipleVideos(String urlVideo, int seekTo) {
-        this.urlVideo = urlVideo;
-        this.seekTo = seekTo;
-    }
-
-    public MultipleVideos(String urlPhoto, String urlVideo, int seekTo) {
-        super(urlPhoto);
         this.urlVideo = urlVideo;
         this.seekTo = seekTo;
     }
