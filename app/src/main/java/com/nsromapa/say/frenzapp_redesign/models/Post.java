@@ -8,7 +8,7 @@ public class Post {
     private String userId, name, timestamp, likes, favourites, description, color,username,userimage;
     private String images_url, post_jsonString, post_type, postId;
 
-    public Post(String postId, String userId, String name, String timestamp, String likes,
+    public Post(String postId, String userId, String timestamp, String likes,
                 String favourites, String description, String color, String username,
                 String userimage, String post_type, String images_url, String post_jsonString) {
 

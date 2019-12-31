@@ -16,10 +16,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/posts_recyclerview"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.hoanganhtuan95ptit.autoplayvideorecyclerview.AutoPlayVideoRecyclerView
+                        android:id="@+id/posts_recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"/>
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
 
             <LinearLayout
                 android:id="@+id/default_item"
@@ -43,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="No posts yet"
+                    android:text="@string/no_posts_yet"
                     android:textColor="#313131"
                     android:textSize="19sp"
                     tools:ignore="MissingPrefix" />
@@ -55,11 +71,50 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:gravity="center"
-                    android:text="Add some friends to see their posts here" />
+                    android:text="@string/add_some_friends_to_see_their_posts_here" />
 
 
             </LinearLayout>
 
+
+            <LinearLayout
+                android:id="@+id/error_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:contentDescription="@string/oops"
+                    app:srcCompat="@drawable/icons8_error_96" />
+
+                <TextView
+                    fontPath="fonts/GoogleSans_Bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/oops"
+                    android:textColor="#313131"
+                    android:textSize="19sp"
+                    tools:ignore="MissingPrefix" />
+
+                <TextView
+                    android:id="@+id/error_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:text="@string/an_unrecognized_error_occurred" />
+
+
+            </LinearLayout>
         </FrameLayout>
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

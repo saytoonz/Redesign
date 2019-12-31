@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" />
+
+    <com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppImageView
+        android:id="@+id/videoImage_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|left"
+        android:padding="10dp"
+        android:src="@drawable/soundon" />
+
+    <com.nsromapa.say.frenzapp_redesign.ui.view.CameraAnimation
+        android:id="@+id/ivCameraAnimation"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom|right"
+        android:padding="10dp" />
+
+    <FrameLayout
+        android:id="@+id/like_layout"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="360dp">
+
+        <View
+            android:id="@+id/vBgLike"
+            android:layout_gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_like_circle_background"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ivLike"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:tint="#FF1744"
+            android:layout_gravity="center"
+            android:src="@mipmap/heart"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+</FrameLayout>

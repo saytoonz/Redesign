@@ -12,14 +12,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 
 import com.nsromapa.say.frenzapp_redesign.R;
 import com.nsromapa.say.frenzapp_redesign.ui.fragment.Home;
-import com.nsromapa.say.frenzapp_redesign.menu.DrawerAdapter;
-import com.nsromapa.say.frenzapp_redesign.menu.DrawerItem;
-import com.nsromapa.say.frenzapp_redesign.menu.SimpleItem;
-import com.nsromapa.say.frenzapp_redesign.menu.SpaceItem;
+import com.nsromapa.say.frenzapp_redesign.adapters.DrawerAdapter;
+import com.nsromapa.say.frenzapp_redesign.helpers.DrawerItem;
+import com.nsromapa.say.frenzapp_redesign.helpers.SimpleItem;
+import com.nsromapa.say.frenzapp_redesign.helpers.SpaceItem;
 import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
 
@@ -52,6 +54,14 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);//  set status text dark
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.white));// set status background white
+        }
+
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

@@ -19,7 +19,7 @@ import com.nsromapa.say.frenzapp_redesign.R;
 import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Chats;
 import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Feeds;
 import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Stories;
-import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.Video;
+import com.nsromapa.say.frenzapp_redesign.ui.fragment.home.VideoFeeds;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -90,7 +90,7 @@ public class Home extends Fragment {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.nv_explorer:
-                        showFragment(new Video(), "Videos");
+                        showFragment(new VideoFeeds(), "Videos");
                         break;
                     case R.id.nv_profile:
                         showFragment(new Stories(), "Stories");

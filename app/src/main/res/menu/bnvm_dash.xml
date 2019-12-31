@@ -17,12 +17,12 @@
         tools:ignore="@string/feeds" />
 
     <item
-        android:icon="@drawable/icons8_connection_status_on_80"
+        android:icon="@drawable/icons8_chat_80"
         android:id="@+id/nv_production"
         android:title="@string/chat" />
 
     <item
-        android:icon="@drawable/icons8_video_call_100"
+        android:icon="@drawable/icons8_connection_status_on_80"
         android:id="@+id/nv_profile"
         android:title="@string/stories" />
 </menu>
