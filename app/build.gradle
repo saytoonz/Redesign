@@ -60,14 +60,10 @@ dependencies {
     //Image Compressor
     implementation 'id.zelory:compressor:2.1.0'
 
-
-    implementation 'com.github.hoanganhtuan95ptit:AutoPlayVideoRecyclerView:1.0.1'
-    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.devbrackets.android:exomedia:4.3.0'
 
     implementation 'com.danikula:videocache:2.7.1'
 
-    implementation 'com.jakewharton:butterknife:10.0.0'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
 
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.github.bxute:StoryView:v1.0'

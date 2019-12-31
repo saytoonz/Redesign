@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_holder"
+    android:background="#f7f7f7"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#FFFFFF"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppVideoView
+    <com.devbrackets.android.exomedia.ui.widget.VideoView
         android:id="@+id/video_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#000000" />
-
-    <com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppImageView
-        android:id="@+id/videoImage_view"
         android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:adjustViewBounds="true"/>
-
-    <ImageView
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_gravity="bottom|left"
-        android:padding="10dp"
-        android:src="@drawable/soundon" />
-
-    <com.nsromapa.say.frenzapp_redesign.ui.view.CameraAnimation
-        android:id="@+id/ivCameraAnimation"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_gravity="bottom|right"
-        android:padding="10dp" />
+        android:layout_height="wrap_content"
+        app:useDefaultControls="true"/>
 
     <FrameLayout
         android:id="@+id/like_layout"
@@ -56,4 +37,5 @@
             android:visibility="invisible" />
 
     </FrameLayout>
+
 </FrameLayout>

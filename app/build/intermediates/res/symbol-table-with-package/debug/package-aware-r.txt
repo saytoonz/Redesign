@@ -430,6 +430,7 @@ attr materialCardViewStyle
 attr maxActionInlineWidth
 attr maxButtonHeight
 attr maxImageSize
+attr measureBasedOnAspectRatio
 attr measureWithLargestChild
 attr menu
 attr mfb_animate_favorite
@@ -625,6 +626,11 @@ attr trackTint
 attr trackTintMode
 attr ttcIndex
 attr useCompatPadding
+attr useDefaultControls
+attr useTextureViewBacking
+attr videoScale
+attr videoViewApiImpl
+attr videoViewApiImplLegacy
 attr viewInflaterClass
 attr visitedIndicatorColor
 attr voiceIcon
@@ -742,6 +748,11 @@ color dim_foreground_material_light
 color errorColor
 color error_color_material_dark
 color error_color_material_light
+color exomedia_default_controls_button_disabled
+color exomedia_default_controls_button_normal
+color exomedia_default_controls_button_pressed
+color exomedia_default_controls_button_selector
+color exomedia_default_controls_leanback_button_selector
 color foreground_material_dark
 color foreground_material_light
 color gray
@@ -1061,6 +1072,7 @@ color myTransparentBlack
 color normalColor
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color off_white
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -1280,6 +1292,11 @@ dimen dialog_padding_side
 dimen digit_button_text_size
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen exomedia_leanback_controls_bottom_margin
+dimen exomedia_leanback_controls_height
+dimen exomedia_leanback_controls_horizontal_margin
+dimen exomedia_leanback_ripple_selector_size
+dimen exomedia_min_button_height
 dimen fab_margin
 dimen fab_recycler_view_padding
 dimen fastscroll_default_thickness
@@ -1389,6 +1406,10 @@ dimen share_view_height
 dimen small_margin
 dimen spinner_drop_width
 dimen standard_weather_icon_size
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen subtitle_text_size
 dimen table_row_about_padding
 dimen table_row_default_horizontal_padding
@@ -1559,6 +1580,15 @@ drawable drawable_gradient_animation_list
 drawable edittext_accent
 drawable error_placeholder
 drawable error_placeholder2
+drawable exomedia_default_controls_interactive_background
+drawable exomedia_default_controls_text_background
+drawable exomedia_ic_fast_forward_white
+drawable exomedia_ic_pause_white
+drawable exomedia_ic_play_arrow_white
+drawable exomedia_ic_rewind_white
+drawable exomedia_ic_skip_next_white
+drawable exomedia_ic_skip_previous_white
+drawable exomedia_leanback_ripple_selector
 drawable fram_camera
 drawable github
 drawable gradient_1
@@ -1921,6 +1951,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1954,8 +1985,11 @@ id blocking
 id bottom
 id bottom_navigation_view
 id buttonPanel
+id cancel_action
 id card_image
 id center
+id centerCrop
+id centerInside
 id center_horizontal
 id center_vertical
 id chains
@@ -1991,11 +2025,32 @@ id disableHome
 id dot
 id edit_query
 id end
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id error_text
 id error_view
 id exitUntilCollapsed
+id exomedia_controls_current_time
+id exomedia_controls_description
+id exomedia_controls_end_time
+id exomedia_controls_extra_container
+id exomedia_controls_fast_forward_btn
+id exomedia_controls_interactive_container
+id exomedia_controls_leanback_ripple
+id exomedia_controls_next_btn
+id exomedia_controls_parent
+id exomedia_controls_play_pause_btn
+id exomedia_controls_previous_btn
+id exomedia_controls_rewind_btn
+id exomedia_controls_sub_title
+id exomedia_controls_text_container
+id exomedia_controls_title
+id exomedia_controls_video_loading
+id exomedia_controls_video_progress
+id exomedia_controls_video_seek
+id exomedia_video_preview_image
+id exomedia_video_view
 id expand_activities_button
 id expanded_menu
 id fab_news_feed
@@ -2003,6 +2058,8 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fitCenter
+id fitXY
 id fixed
 id forever
 id ghost_view
@@ -2024,7 +2081,6 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id ivCameraAnimation
 id ivLike
 id labeled
 id largeLabel
@@ -2040,6 +2096,7 @@ id listMode
 id list_item
 id main_container
 id masked
+id media_actions
 id message
 id middle
 id mini
@@ -2132,6 +2189,7 @@ id standard
 id star
 id start
 id stat_button
+id status_bar_latest_event_content
 id storyImage
 id storyTime
 id storyUserName
@@ -2181,8 +2239,8 @@ id useLogo
 id user_image
 id username
 id vBgLike
-id videoImage_view
 id video_view
+id video_view_api_impl_stub
 id view_offset_helper
 id visible
 id white
@@ -2263,6 +2321,13 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout dot_layout
+layout exomedia_default_controls_leanback
+layout exomedia_default_controls_mobile
+layout exomedia_default_exo_surface_video_view
+layout exomedia_default_exo_texture_video_view
+layout exomedia_default_native_surface_video_view
+layout exomedia_default_native_texture_video_view
+layout exomedia_video_view_layout
 layout fragment_chat
 layout fragment_feeds
 layout fragment_home
@@ -2279,8 +2344,17 @@ layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -2668,9 +2742,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -2976,6 +3055,7 @@ styleable TextAppearance android_textSize android_typeface android_textStyle and
 styleable TextInputLayout android_textColorHint android_hint boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeWidth counterEnabled counterMaxLength counterOverflowTextAppearance counterTextAppearance errorEnabled errorTextAppearance helperText helperTextEnabled helperTextTextAppearance hintAnimationEnabled hintEnabled hintTextAppearance passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
+styleable VideoView measureBasedOnAspectRatio useDefaultControls useTextureViewBacking videoScale videoViewApiImpl videoViewApiImplLegacy
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation

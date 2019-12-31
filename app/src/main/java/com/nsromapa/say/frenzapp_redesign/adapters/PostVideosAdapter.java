@@ -29,12 +29,15 @@ import androidx.viewpager.widget.PagerAdapter;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.danikula.videocache.HttpProxyCacheServer;
+import com.devbrackets.android.exomedia.listener.OnPreparedListener;
+import com.devbrackets.android.exomedia.ui.widget.VideoView;
 import com.github.ivbaranov.mfb.MaterialFavoriteButton;
+import com.nsromapa.say.frenzapp_redesign.App;
 import com.nsromapa.say.frenzapp_redesign.R;
 import com.nsromapa.say.frenzapp_redesign.models.MultipleImage;
 import com.nsromapa.say.frenzapp_redesign.models.MultipleVideos;
 import com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppImageView;
-import com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppVideoView;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,7 +48,7 @@ import java.util.Map;
 import id.zelory.compressor.Compressor;
 
 
-public class PostVideosAdapter extends PagerAdapter {
+public class PostVideosAdapter extends PagerAdapter implements OnPreparedListener {
 
 
     private ArrayList<MultipleVideos> VIDEOS;
@@ -58,6 +61,8 @@ public class PostVideosAdapter extends PagerAdapter {
     private static final DecelerateInterpolator DECCELERATE_INTERPOLATOR = new DecelerateInterpolator();
     private static final AccelerateInterpolator ACCELERATE_INTERPOLATOR = new AccelerateInterpolator();
     private MaterialFavoriteButton like_btn;
+    private VideoView videoView;
+
 
     public PostVideosAdapter(Context context, Activity activity, ArrayList<MultipleVideos> VIDEOS,
                              boolean local, String postId, MaterialFavoriteButton like_btn, String adminId) {
@@ -237,46 +242,53 @@ public class PostVideosAdapter extends PagerAdapter {
         final View videoLayout = inflater.inflate(R.layout.item_viewpager_video, view, false);
 
         assert videoLayout != null;
-        FrenzAppVideoView videoView = videoLayout.findViewById(R.id.video_view);
-        FrenzAppImageView imageView = videoLayout.findViewById(R.id.videoImage_view);
         final View vBgLike = videoLayout.findViewById(R.id.vBgLike);
         final ImageView ivLike = videoLayout.findViewById(R.id.ivLike);
+// Make sure to use the correct VideoView import
+        videoView = videoLayout.findViewById(R.id.video_view);
+        videoView.setOnPreparedListener(this);
 
-            final GestureDetector detector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
-                @Override
-                public boolean onDown(MotionEvent e) {
-                    return true;
-                }
+        HttpProxyCacheServer proxy = App.getProxy(context);
+        String proxyUrl = proxy.getProxyUrl(VIDEOS.get(position).getUrlVideo());
 
-                @Override
-                public void onLongPress(MotionEvent e) {
-                    super.onLongPress(e);
+        videoView.setVideoURI(Uri.parse(proxyUrl));
+
+
+        final GestureDetector detector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
+            @Override
+            public boolean onDown(MotionEvent e) {
+                return true;
+            }
+
+            @Override
+            public void onLongPress(MotionEvent e) {
+                super.onLongPress(e);
 //                    Intent intent=new Intent(context, ImagePreview.class)
 //                            .putExtra("uri","")
 //                            //.putExtra("sender_name","Posts")
 //                            .putExtra("url",IMAGES.get(position).getUrl());
 //                    context.startActivity(intent);
-                }
-
-                @Override
-                public boolean onDoubleTap(MotionEvent e) {
-
-                    if (isOnline()) {
-                        animatePhotoLike(vBgLike, ivLike);
-                    }
-
-                    return true;
-                }
             }
-            );
+
+            @Override
+            public boolean onDoubleTap(MotionEvent e) {
+
+                if (isOnline()) {
+                    animatePhotoLike(vBgLike, ivLike);
+                }
+
+                return true;
+            }
+        }
+        );
 
         videoView.setOnTouchListener((v, event) -> detector.onTouchEvent(event));
-        imageView.setOnTouchListener((v, event) -> detector.onTouchEvent(event));
 
 
-            Glide.with(context)
-                    .load(VIDEOS.get(position).getUrlVideo())
-                    .into(imageView);
+//        Glide.with(context)
+//                .setDefaultRequestOptions(new RequestOptions().placeholder(R.drawable.placeholder2))
+//                .load(VIDEOS.get(position).getUrlVideo())
+//                .into(videoLayout);
 
 
         view.addView(videoLayout, 0);
@@ -299,4 +311,8 @@ public class PostVideosAdapter extends PagerAdapter {
     }
 
 
+    @Override
+    public void onPrepared() {
+        videoView.start();
+    }
 }

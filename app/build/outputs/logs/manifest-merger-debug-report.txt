@@ -10,7 +10,7 @@ MERGED from [com.google.android.material:material:1.0.0] C:\Users\Saytoonz\.grad
 MERGED from [com.yarolegovich:sliding-root-nav:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\f142aff62847151d245b20c9bebd0da5\jetified-sliding-root-nav-1.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\3038e8b91908fd78e806947bc9590315\jetified-Toasty-1.4.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.huangyz0918:androidwm-light:0.1.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\f179108ae5c025aaa413f78b5416a0a3\jetified-androidwm-light-0.1.2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.hoanganhtuan95ptit:AutoPlayVideoRecyclerView:1.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\bde192d267da66dd4816c8d04d9408f5\jetified-AutoPlayVideoRecyclerView-1.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -23,7 +23,6 @@ MERGED from [com.github.ivbaranov:materialfavoritebutton:0.1.4] C:\Users\Saytoon
 MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\62d1e42bf9ec519d5608a97cad031979\jetified-glide-4.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\44c4e2edaa28a3d1ae970d2434ff5eb3\compressor-2.1.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.danikula:videocache:2.7.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\0a707ec23ce242b805498002f1f03b3f\videocache-2.7.1\AndroidManifest.xml:2:1-14:12
-MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6a8449d4d7c1428f863215e8ff0b8f14\butterknife-10.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\bc16c119e93617f7f4bd3188565e6df6\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -36,7 +35,7 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Saytoonz\.gradle\cache
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\d87973ebeeaea2fc000b73c69c9f5f39\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\1138a1941bf86b99853b89ce79c7fc71\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\371cb61e4b62d7d4ae3073ca7d730c00\butterknife-runtime-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\2444e4ac8bf5e41fc0222e63298b7bae\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\07b17ca9bfc2ccf3f9284ac94fb47df2\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\50dbf37e10b7bd5c1bf2c0fff2d83243\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -46,6 +45,10 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sa
 MERGED from [androidx.core:core:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\098bbe02ec5c250e6d4ac37bddd46c6c\jetified-gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\399419dff22562f9d2c0c6472ee6f6ec\jetified-exoplayer-dash-2.9.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\970c6c54a80515961f4f17c687109e4b\jetified-exoplayer-hls-2.9.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\02112fb44f61c6077d93fc30eb43a1bc\jetified-exoplayer-smoothstreaming-2.9.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\5d3146276488423f6200a48f2362dce6\jetified-exoplayer-core-2.9.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\b49a3cb0a0186e54d18812f26e6e4ce2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -58,7 +61,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Saytoonz\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e4a3d379d1bcbe285b89607fcaeb9e70\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\87ae084eb3df2dbaca54f0e05c8f6900\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9892867a70e2b14adca667b63a808473\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\117d2c4ac22ee5ab0b64eee97d6cdd53\rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
 INJECTED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:2:1-24:12
@@ -78,6 +80,8 @@ INJECTED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:2:1-2
 		ADDED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\5d3146276488423f6200a48f2362dce6\jetified-exoplayer-core-2.9.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\5d3146276488423f6200a48f2362dce6\jetified-exoplayer-core-2.9.1\AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
@@ -92,6 +96,8 @@ MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] C:\Users\Saytoonz
 MERGED from [com.github.ittianyu:BottomNavigationViewEx:2.0.4] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9b767aa441f300928e394669c1c9d854\jetified-BottomNavigationViewEx-2.0.4\AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\946093075d78eb9f74f58a48d61f96ab\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\946093075d78eb9f74f58a48d61f96ab\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:11:5-20
+MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:11:5-20
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:11:5-13:19
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:11:5-13:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -158,8 +164,8 @@ MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\Saytoonz\.gradle\caches\
 MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\3038e8b91908fd78e806947bc9590315\jetified-Toasty-1.4.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.huangyz0918:androidwm-light:0.1.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\f179108ae5c025aaa413f78b5416a0a3\jetified-androidwm-light-0.1.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.huangyz0918:androidwm-light:0.1.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\f179108ae5c025aaa413f78b5416a0a3\jetified-androidwm-light-0.1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.hoanganhtuan95ptit:AutoPlayVideoRecyclerView:1.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\bde192d267da66dd4816c8d04d9408f5\jetified-AutoPlayVideoRecyclerView-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.hoanganhtuan95ptit:AutoPlayVideoRecyclerView:1.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\bde192d267da66dd4816c8d04d9408f5\jetified-AutoPlayVideoRecyclerView-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -184,8 +190,6 @@ MERGED from [id.zelory:compressor:2.1.0] C:\Users\Saytoonz\.gradle\caches\transf
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\44c4e2edaa28a3d1ae970d2434ff5eb3\compressor-2.1.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.danikula:videocache:2.7.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\0a707ec23ce242b805498002f1f03b3f\videocache-2.7.1\AndroidManifest.xml:8:5-10:41
 MERGED from [com.danikula:videocache:2.7.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\0a707ec23ce242b805498002f1f03b3f\videocache-2.7.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6a8449d4d7c1428f863215e8ff0b8f14\butterknife-10.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6a8449d4d7c1428f863215e8ff0b8f14\butterknife-10.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\bc16c119e93617f7f4bd3188565e6df6\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -210,8 +214,8 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Saytoo
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\1138a1941bf86b99853b89ce79c7fc71\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e7c663d08d0478d87f07969d53991dd8\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\371cb61e4b62d7d4ae3073ca7d730c00\butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\371cb61e4b62d7d4ae3073ca7d730c00\butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\2444e4ac8bf5e41fc0222e63298b7bae\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\2444e4ac8bf5e41fc0222e63298b7bae\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9d820099421ea00e96b2625ea6c19c4c\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\07b17ca9bfc2ccf3f9284ac94fb47df2\activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -230,6 +234,14 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Saytoonz\.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\098bbe02ec5c250e6d4ac37bddd46c6c\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\098bbe02ec5c250e6d4ac37bddd46c6c\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\399419dff22562f9d2c0c6472ee6f6ec\jetified-exoplayer-dash-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\399419dff22562f9d2c0c6472ee6f6ec\jetified-exoplayer-dash-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\970c6c54a80515961f4f17c687109e4b\jetified-exoplayer-hls-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\970c6c54a80515961f4f17c687109e4b\jetified-exoplayer-hls-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\02112fb44f61c6077d93fc30eb43a1bc\jetified-exoplayer-smoothstreaming-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\02112fb44f61c6077d93fc30eb43a1bc\jetified-exoplayer-smoothstreaming-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\5d3146276488423f6200a48f2362dce6\jetified-exoplayer-core-2.9.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\5d3146276488423f6200a48f2362dce6\jetified-exoplayer-core-2.9.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -254,8 +266,6 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Saytoonz\.gradle\ca
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\87ae084eb3df2dbaca54f0e05c8f6900\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9892867a70e2b14adca667b63a808473\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\9892867a70e2b14adca667b63a808473\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\117d2c4ac22ee5ab0b64eee97d6cdd53\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\117d2c4ac22ee5ab0b64eee97d6cdd53\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
 INJECTED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml
 INJECTED from D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
