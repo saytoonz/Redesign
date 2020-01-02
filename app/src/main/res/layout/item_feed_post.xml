@@ -78,6 +78,7 @@
 
         </RelativeLayout>
 
+<!--        Image and Text Post Container-->
         <FrameLayout
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
@@ -156,6 +157,56 @@
                 android:layout_gravity="center"
                 android:src="@mipmap/heart"
                 android:visibility="invisible" />
+
+        </FrameLayout>
+
+<!--        Video Container-->
+        <FrameLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/video_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/video_pager_layout"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="360dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/video_pager"
+                    android:background="@color/colorPrimaryy"
+                    android:layout_gravity="top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+                <RelativeLayout
+                    android:visibility="visible"
+                    android:id="@+id/video_indicator_holder"
+                    android:background="#20000000"
+                    android:layout_gravity="bottom"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                        android:id="@+id/video_indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        app:dotsColor="@color/white"
+                        app:dotsCornerRadius="8dp"
+                        app:dotsSize="6dp"
+                        app:dotsSpacing="4dp"
+                        app:dotsWidthFactor="2.5"
+                        />
+
+                </RelativeLayout>
+
+            </FrameLayout>
 
         </FrameLayout>
 

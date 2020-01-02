@@ -7,14 +7,10 @@ import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.database.Cursor;
-import android.graphics.Bitmap;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Parcelable;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -27,53 +23,40 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.danikula.videocache.HttpProxyCacheServer;
+import com.devbrackets.android.exomedia.listener.OnCompletionListener;
 import com.devbrackets.android.exomedia.listener.OnPreparedListener;
 import com.devbrackets.android.exomedia.ui.widget.VideoView;
-import com.github.ivbaranov.mfb.MaterialFavoriteButton;
 import com.nsromapa.say.frenzapp_redesign.App;
 import com.nsromapa.say.frenzapp_redesign.R;
-import com.nsromapa.say.frenzapp_redesign.models.MultipleImage;
 import com.nsromapa.say.frenzapp_redesign.models.MultipleVideos;
-import com.nsromapa.say.frenzapp_redesign.ui.view.FrenzAppImageView;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
-import id.zelory.compressor.Compressor;
 
 
 public class PostVideosAdapter extends PagerAdapter implements OnPreparedListener {
 
 
     private ArrayList<MultipleVideos> VIDEOS;
-    private boolean local;
     private LayoutInflater inflater;
     private Context context;
-    private File compressedFile;
     private Activity activity;
-    private String postId, adminId;
     private static final DecelerateInterpolator DECCELERATE_INTERPOLATOR = new DecelerateInterpolator();
     private static final AccelerateInterpolator ACCELERATE_INTERPOLATOR = new AccelerateInterpolator();
-    private MaterialFavoriteButton like_btn;
     private VideoView videoView;
+    private View bigView;
+    private ImageView soundOnView, soundOffView;
+    private ImageView playVideo, pauseVideo;
+    private boolean isVolumed = false;
 
 
-    public PostVideosAdapter(Context context, Activity activity, ArrayList<MultipleVideos> VIDEOS,
-                             boolean local, String postId, MaterialFavoriteButton like_btn, String adminId) {
+    public PostVideosAdapter(Context context, Activity activity, ArrayList<MultipleVideos> VIDEOS) {
         this.context = context;
         this.VIDEOS = VIDEOS;
-        this.local = local;
         this.activity = activity;
         inflater = LayoutInflater.from(context);
-        this.postId = postId;
-        this.like_btn = like_btn;
-        this.adminId = adminId;
     }
 
     @Override
@@ -136,103 +119,15 @@ public class PostVideosAdapter extends PagerAdapter implements OnPreparedListene
             @Override
             public void onAnimationStart(Animator animation) {
                 super.onAnimationStart(animation);
-                like_btn.setFavorite(true, true);
-
-                Map<String, Object> likeMap = new HashMap<>();
-                likeMap.put("liked", true);
-
-                try {
-
-//                    FirebaseFirestore.getInstance().collection("Posts")
-//                            .document(postId)
-//                            .collection("Liked_Users")
-//                            .document(FirebaseAuth.getInstance().getCurrentUser().getUid())
-//                            .set(likeMap)
-//                            .addOnSuccessListener(aVoid -> {
-//
-//                                UserHelper userHelper=new UserHelper(context);
-//                                Cursor rs = userHelper.getData(1);
-//                                rs.moveToFirst();
-//
-//                                String image = rs.getString(rs.getColumnIndex(UserHelper.CONTACTS_COLUMN_IMAGE));
-//                                String username = rs.getString(rs.getColumnIndex(UserHelper.CONTACTS_COLUMN_USERNAME));
-//
-//                                if (!rs.isClosed()) {
-//                                    rs.close();
-//                                }
-//
-//                                addToNotification(adminId,
-//                                        FirebaseAuth.getInstance().getCurrentUser().getUid(),
-//                                        image,
-//                                        username,
-//                                        "Liked your post",
-//                                        postId,
-//                                        "like");
-//
-//                            })
-//                            .addOnFailureListener(e -> Log.e("Error like", e.getMessage()));
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-
             }
         });
         animatorSet.start();
 
     }
 
-    private void addToNotification(String admin_id, String user_id, String profile, String username, String message, String post_id, String type) {
-
-        Map<String, Object> map = new HashMap<>();
-        map.put("id", user_id);
-        map.put("username", username);
-        map.put("image", profile);
-        map.put("message", message);
-        map.put("timestamp", String.valueOf(System.currentTimeMillis()));
-        map.put("type", type);
-        map.put("action_id", post_id);
-
-        if (!admin_id.equals(user_id)) {
-
-//            FirebaseFirestore.getInstance().collection("Users")
-//                    .document(admin_id)
-//                    .collection("Info_Notifications")
-//                    .whereEqualTo("id",user_id)
-//                    .whereEqualTo("action_id",post_id)
-//                    .whereEqualTo("type",type)
-//                    .get()
-//                    .addOnSuccessListener(queryDocumentSnapshots -> {
-//
-//                        if(queryDocumentSnapshots.isEmpty()){
-//
-//                            FirebaseFirestore.getInstance().collection("Users")
-//                                    .document(admin_id)
-//                                    .collection("Info_Notifications")
-//                                    .add(map)
-//                                    .addOnSuccessListener(documentReference -> {
-//                                    })
-//                                    .addOnFailureListener(e -> Log.e("Error", e.getLocalizedMessage()));
-//
-//                        }
-//
-//                    })
-//                    .addOnFailureListener(Throwable::printStackTrace);
-
-        }
-
-    }
-
     private void resetLikeAnimationState(View vBgLike, ImageView ivLike) {
         vBgLike.setVisibility(View.INVISIBLE);
         ivLike.setVisibility(View.INVISIBLE);
-    }
-
-    public boolean isOnline() {
-        ConnectivityManager cm =
-                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
     @SuppressLint("ClickableViewAccessibility")
@@ -242,8 +137,12 @@ public class PostVideosAdapter extends PagerAdapter implements OnPreparedListene
         final View videoLayout = inflater.inflate(R.layout.item_viewpager_video, view, false);
 
         assert videoLayout != null;
-        final View vBgLike = videoLayout.findViewById(R.id.vBgLike);
-        final ImageView ivLike = videoLayout.findViewById(R.id.ivLike);
+        bigView = videoLayout.findViewById(R.id.vBigView);
+        soundOnView = videoLayout.findViewById(R.id.soundOnView);
+        soundOffView = videoLayout.findViewById(R.id.soundOffView);
+        playVideo = videoLayout.findViewById(R.id.playVideo);
+        pauseVideo = videoLayout.findViewById(R.id.pauseVideo);
+
 // Make sure to use the correct VideoView import
         videoView = videoLayout.findViewById(R.id.video_view);
         videoView.setOnPreparedListener(this);
@@ -252,43 +151,6 @@ public class PostVideosAdapter extends PagerAdapter implements OnPreparedListene
         String proxyUrl = proxy.getProxyUrl(VIDEOS.get(position).getUrlVideo());
 
         videoView.setVideoURI(Uri.parse(proxyUrl));
-
-
-        final GestureDetector detector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
-            @Override
-            public boolean onDown(MotionEvent e) {
-                return true;
-            }
-
-            @Override
-            public void onLongPress(MotionEvent e) {
-                super.onLongPress(e);
-//                    Intent intent=new Intent(context, ImagePreview.class)
-//                            .putExtra("uri","")
-//                            //.putExtra("sender_name","Posts")
-//                            .putExtra("url",IMAGES.get(position).getUrl());
-//                    context.startActivity(intent);
-            }
-
-            @Override
-            public boolean onDoubleTap(MotionEvent e) {
-
-                if (isOnline()) {
-                    animatePhotoLike(vBgLike, ivLike);
-                }
-
-                return true;
-            }
-        }
-        );
-
-        videoView.setOnTouchListener((v, event) -> detector.onTouchEvent(event));
-
-
-//        Glide.with(context)
-//                .setDefaultRequestOptions(new RequestOptions().placeholder(R.drawable.placeholder2))
-//                .load(VIDEOS.get(position).getUrlVideo())
-//                .into(videoLayout);
 
 
         view.addView(videoLayout, 0);
@@ -311,8 +173,60 @@ public class PostVideosAdapter extends PagerAdapter implements OnPreparedListene
     }
 
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public void onPrepared() {
-        videoView.start();
+
+        if (isVolumed){
+            videoView.setVolume(1.0f);
+        }else {
+            videoView.setVolume(0f);
+        }
+
+        videoView.setOnCompletionListener(() -> {
+            videoView.restart();
+                videoView.start();
+
+        });
+
+        final GestureDetector detector = new GestureDetector(context, new GestureDetector.SimpleOnGestureListener() {
+            @Override
+            public boolean onDown(MotionEvent e) {
+                return true;
+            }
+
+            @Override
+            public void onLongPress(MotionEvent e) {
+                super.onLongPress(e);
+                if (videoView.isPlaying()) {
+                    videoView.pause();
+                    animatePhotoLike(bigView, pauseVideo);
+                } else {
+                    videoView.start();
+                    animatePhotoLike(bigView, playVideo);
+                }
+            }
+
+            @Override
+            public boolean onDoubleTap(MotionEvent e) {
+
+                if (videoView.getVolume() >= 1) {
+                    videoView.setVolume(0f);
+                    isVolumed = false;
+                    animatePhotoLike(bigView, soundOffView);
+                } else {
+                    videoView.setVolume(1.0f);
+                    isVolumed = true;
+                    animatePhotoLike(bigView, soundOnView);
+                }
+
+
+                return true;
+            }
+        }
+        );
+
+        videoView.setOnTouchListener((v, event) -> detector.onTouchEvent(event));
+
     }
 }

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="200dp"
+    android:layout_margin="6dp"
+    android:elevation="2dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_new_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="top|end"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/icons8_plus_100"
+        android:tint="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <xute.storyview.StoryView
+        android:id="@+id/storyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:spaceBetweenImageAndIndicator="1dp"
+        app:storyImageRadius="8dp"
+        app:storyItemIndicatorWidth="1dp"
+        app:pendingIndicatorColor="@color/colorAccent"
+        app:visitedIndicatorColor="@color/red"
+        android:layout_gravity="top|end"
+        android:elevation="2dp"
+        android:layout_margin="12dp" />
+
+    <ImageView
+        android:id="@+id/first_stat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/soundon" />
+
+    <LinearLayout
+        android:background="@drawable/black_tranparent_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:paddingTop="6dp"
+        android:paddingBottom="3dp">
+        <TextView
+            android:id="@+id/poster_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:text="Agyenim Boateng Rachael Yaw Adjei Akua"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

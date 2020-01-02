@@ -11,6 +11,7 @@ MERGED from [com.yarolegovich:sliding-root-nav:1.1.0] C:\Users\Saytoonz\.gradle\
 MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\3038e8b91908fd78e806947bc9590315\jetified-Toasty-1.4.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.huangyz0918:androidwm-light:0.1.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\f179108ae5c025aaa413f78b5416a0a3\jetified-androidwm-light-0.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.devlomi:circularstatusview:1.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\d311ccc965bfcd7e902556ee9eee64e1\jetified-circularstatusview-1.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -166,6 +167,8 @@ MERGED from [com.huangyz0918:androidwm-light:0.1.2] C:\Users\Saytoonz\.gradle\ca
 MERGED from [com.huangyz0918:androidwm-light:0.1.2] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\f179108ae5c025aaa413f78b5416a0a3\jetified-androidwm-light-0.1.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.devbrackets.android:exomedia:4.3.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\6b4eee9ae282c98d21e477e0fa610523\jetified-exomedia-4.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.devlomi:circularstatusview:1.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\d311ccc965bfcd7e902556ee9eee64e1\jetified-circularstatusview-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.devlomi:circularstatusview:1.0.1] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\d311ccc965bfcd7e902556ee9eee64e1\jetified-circularstatusview-1.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41

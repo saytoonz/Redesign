@@ -469,6 +469,10 @@ attr pendingIndicatorColor
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
+attr portion_color
+attr portion_spacing
+attr portion_width
+attr portions_count
 attr precision
 attr preserveIconSpacing
 attr pressedTranslationZ
@@ -1546,6 +1550,7 @@ drawable avd_show_password
 drawable background_white_button
 drawable badge_background
 drawable bg_like_circle_background
+drawable black_tranparent_gradient
 drawable blurred_header_background
 drawable blurred_text_background
 drawable bottom_shadow
@@ -1827,7 +1832,9 @@ drawable icons8_chat_80
 drawable icons8_connection_status_on_80
 drawable icons8_error_96
 drawable icons8_news_feed_64
+drawable icons8_plus_100
 drawable icons8_video_call_100
+drawable icons8_video_file_64
 drawable image_placeholder
 drawable india_logo
 drawable input_backgtound
@@ -1854,10 +1861,12 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable oops
+drawable pause_big
 drawable picture_white
 drawable placeholder
 drawable placeholder2
 drawable placeholder_image
+drawable play_big
 drawable posts_icon
 drawable progress_drawable
 drawable read_icon
@@ -1876,6 +1885,7 @@ drawable shape_line
 drawable shape_message_left_2
 drawable shape_message_right_2
 drawable side_nav_bar
+drawable soundoff
 drawable soundon
 drawable splash_window_bg
 drawable spring_dot_background
@@ -1973,6 +1983,7 @@ id actions
 id activity_chooser_view_content
 id activity_main
 id add
+id add_new_story
 id alertTitle
 id all
 id always
@@ -2022,6 +2033,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id discovery_recycler
 id dot
 id edit_query
 id end
@@ -2058,6 +2070,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id first_stat
 id fitCenter
 id fitXY
 id fixed
@@ -2125,13 +2138,16 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id pauseVideo
 id percent
 id pin
+id playVideo
 id post_desc
 id post_text
 id post_timestamp
 id post_user_image
 id post_username
+id poster_info
 id posts_recyclerview
 id profile_image
 id progressBarView
@@ -2176,6 +2192,8 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soundOffView
+id soundOnView
 id spacer
 id split_action_bar
 id spread
@@ -2193,6 +2211,8 @@ id status_bar_latest_event_content
 id storyImage
 id storyTime
 id storyUserName
+id storyView
+id story_recycler
 id stretch
 id submenuarrow
 id submit_area
@@ -2239,6 +2259,12 @@ id useLogo
 id user_image
 id username
 id vBgLike
+id vBigView
+id video_holder
+id video_indicator
+id video_indicator_holder
+id video_pager
+id video_pager_layout
 id video_view
 id video_view_api_impl_stub
 id view_offset_helper
@@ -2332,10 +2358,10 @@ layout fragment_chat
 layout fragment_feeds
 layout fragment_home
 layout fragment_stories
-layout fragment_video
 layout item_chat_list
 layout item_feed_post
 layout item_option
+layout item_status
 layout item_viewpager_image
 layout item_viewpager_video
 layout layout_video
@@ -2998,6 +3024,7 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
 styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
+styleable CircularStatusView portion_color portion_spacing portion_width portions_count
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

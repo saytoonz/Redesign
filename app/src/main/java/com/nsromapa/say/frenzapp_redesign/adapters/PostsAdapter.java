@@ -113,15 +113,15 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
         private CircleImageView user_image;
         private TextView user_name, timestamp, post_desc;
         private MaterialFavoriteButton sav_button, like_btn, share_btn, comment_btn, stat_btn;
-        private FrameLayout mImageholder;
-        private FrameLayout pager_layout;
-        private RelativeLayout indicator_holder;
+        private FrameLayout mImageholder, mVideoholder;
+        private FrameLayout pager_layout, video_pager_layout;
+        private RelativeLayout indicator_holder, video_indicator_holder;
         private AutofitTextView post_text;
         private ImageView delete;
-        private ViewPager pager;
+        private ViewPager pager, video_pager;
         private View vBgLike;
         private ImageView ivLike;
-        private DotsIndicator indicator2;
+        private DotsIndicator indicator2, indicator3;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -144,6 +144,12 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
             mImageholder = mView.findViewById(R.id.image_holder);
             indicator2 = mView.findViewById(R.id.indicator);
             indicator_holder = mView.findViewById(R.id.indicator_holder);
+            indicator3 = mView.findViewById(R.id.video_indicator);
+
+            video_indicator_holder = mView.findViewById(R.id.video_indicator_holder);
+            video_pager_layout = mView.findViewById(R.id.video_pager_layout);
+            video_pager = mView.findViewById(R.id.video_pager);
+            mVideoholder = mView.findViewById(R.id.video_holder);
         }
     }
 
@@ -270,10 +276,10 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
 //
         });
 
-//        if (postList.get(pos).getImage_count() == 0) {
         switch (postList.get(pos).getPost_type()) {
-            case "text_only":
-
+            case "text_only": {
+                holder.mVideoholder.setVisibility(View.GONE);
+                holder.mImageholder.setVisibility(View.VISIBLE);
                 holder.pager_layout.setVisibility(View.GONE);
                 holder.post_desc.setVisibility(View.GONE);
                 setmImageHolderBg(postList.get(pos).getColor(), holder.mImageholder);
@@ -295,6 +301,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
                 });
 
                 break;
+            }
             case "images_only": {
                 ArrayList<MultipleImage> multipleImages = new ArrayList<>();
                 PostPhotosAdapter photosAdapter = new PostPhotosAdapter(context, activity,
@@ -325,6 +332,8 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
                     holder.indicator2.setDotsClickable(false);
                 }
 
+                holder.mVideoholder.setVisibility(View.GONE);
+                holder.mImageholder.setVisibility(View.VISIBLE);
                 holder.pager_layout.setVisibility(View.VISIBLE);
                 holder.indicator_holder.setVisibility(View.VISIBLE);
                 holder.post_text.setVisibility(View.GONE);
@@ -340,8 +349,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
             case "videos_only": {
                 ArrayList<MultipleVideos> multipleVideos = new ArrayList<>();
                 PostVideosAdapter videosAdapter = new PostVideosAdapter(context, activity,
-                        multipleVideos, false, postList.get(holder.getAdapterPosition()).getPostId(),
-                        holder.like_btn, postList.get(holder.getAdapterPosition()).getUserId());
+                        multipleVideos);
 
                 String[] items = postList.get(pos).getImages_url().split(",");
                 List<String> videosList = new ArrayList<>(Arrays.asList(items));
@@ -356,21 +364,22 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
                 }
 
 
-                holder.pager.setAdapter(videosAdapter);
+                holder.video_pager.setAdapter(videosAdapter);
                 videosAdapter.notifyDataSetChanged();
                 if (videosList.size() > 1) {
-                    holder.indicator_holder.setVisibility(View.VISIBLE);
-                    holder.indicator2.setDotsClickable(true);
-                    holder.indicator2.setViewPager(holder.pager);
+                    holder.video_indicator_holder.setVisibility(View.VISIBLE);
+                    holder.indicator3.setDotsClickable(true);
+                    holder.indicator3.setViewPager(holder.pager);
                 } else {
-                    holder.indicator_holder.setVisibility(View.GONE);
-                    holder.indicator2.setDotsClickable(false);
+                    holder.video_indicator_holder.setVisibility(View.GONE);
+                    holder.indicator3.setDotsClickable(false);
                 }
 
 
-                holder.pager_layout.setVisibility(View.VISIBLE);
-                holder.indicator_holder.setVisibility(View.VISIBLE);
-                holder.post_text.setVisibility(View.GONE);
+                holder.mImageholder.setVisibility(View.GONE);
+                holder.mVideoholder.setVisibility(View.VISIBLE);
+                holder.video_pager_layout.setVisibility(View.VISIBLE);
+                holder.video_indicator_holder.setVisibility(View.VISIBLE);
                 holder.post_desc.setVisibility(View.VISIBLE);
                 String desc = "<b>" + postList.get(pos).getUsername() + "</b> : " + postList.get(pos).getDescription();
                 holder.post_desc.setText(Html.fromHtml(desc));
@@ -385,7 +394,6 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
             }
         }
     }
-
 
 
     private boolean isOnline() {

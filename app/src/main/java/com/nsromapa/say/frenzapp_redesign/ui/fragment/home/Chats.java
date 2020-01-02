@@ -20,8 +20,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Chats extends Fragment {
-     private  View view;
-    private RecyclerView chatRecyclerView;
     private ContactListInChatAdapter myAdapter;
     private List<ChatList> chatList;
 
@@ -36,10 +34,10 @@ public class Chats extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-         view = inflater.inflate(R.layout.fragment_chat, container, false);
+        View view = inflater.inflate(R.layout.fragment_chat, container, false);
 
         chatList = new ArrayList<>();
-        chatRecyclerView = view.findViewById(R.id.chats_list_recyclerview_id);
+        RecyclerView chatRecyclerView = view.findViewById(R.id.chats_list_recyclerview_id);
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         myAdapter = new ContactListInChatAdapter(getContext(),chatList,getActivity());
         chatRecyclerView.setLayoutManager(mLayoutManager);

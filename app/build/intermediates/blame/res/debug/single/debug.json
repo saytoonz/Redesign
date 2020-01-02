@@ -500,16 +500,16 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_notification.png.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\mipmap-hdpi\\ic_notification.png"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_a_photo_black_24dp.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_add_a_photo_black_24dp.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_no_result.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-mdpi\\no_result.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_a_photo_black_24dp.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_add_a_photo_black_24dp.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_notification.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\mipmap-hdpi\\ic_notification.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -660,8 +660,8 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_soundon.webp.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-hdpi\\soundon.webp"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_tranparent_gradient.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\black_tranparent_gradient.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -860,6 +860,10 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_location_white.png"
     },
     {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_video_file_64.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\icons8_video_file_64.png"
+    },
+    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_colored_ripple_color.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\color\\mtrl_tabs_colored_ripple_color.xml"
     },
@@ -942,10 +946,6 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_star_border_black_24dp.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\f7153f48d47acd74cfa82bba8f90f035\\materialfavoritebutton-0.1.4\\res\\drawable-xxhdpi-v4\\ic_star_border_black_24dp.png"
-    },
-    {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_video.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\layout\\fragment_video.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
@@ -1540,6 +1540,10 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soundon.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\soundon.png"
+    },
+    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\2444e4ac8bf5e41fc0222e63298b7bae\\media-1.0.0\\res\\layout\\notification_media_action.xml"
     },
@@ -1714,6 +1718,10 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soundoff.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\soundoff.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -2364,6 +2372,10 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\gradient_3.xml"
     },
     {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pause_big.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\pause_big.png"
+    },
+    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_dot_layout.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\1170414423c1de8c2f229ac69769ad73\\viewpagerdotsindicator-4.1.2\\res\\layout\\dot_layout.xml"
     },
@@ -2518,6 +2530,10 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_line.xml.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\shape_line.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icons8_plus_100.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\icons8_plus_100.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_header.png.flat",
@@ -3988,6 +4004,10 @@
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-mdpi\\ic_email_white_24dp.png"
     },
     {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play_big.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\play_big.png"
+    },
+    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_no_result.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-xxhdpi\\no_result.png"
     },
@@ -4026,6 +4046,10 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_message_left_2.xml.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\shape_message_left_2.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_status.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\layout\\item_status.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mute_green.png.flat",
