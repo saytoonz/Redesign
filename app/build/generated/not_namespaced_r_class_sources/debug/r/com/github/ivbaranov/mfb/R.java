@@ -12,17 +12,17 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int mfb_animate_favorite = 0x7f04018a;
-        public static final int mfb_animate_unfavorite = 0x7f04018b;
-        public static final int mfb_bounce_duration = 0x7f04018c;
-        public static final int mfb_color = 0x7f04018d;
-        public static final int mfb_favorite_image = 0x7f04018e;
-        public static final int mfb_not_favorite_image = 0x7f04018f;
-        public static final int mfb_padding = 0x7f040190;
-        public static final int mfb_rotation_angle = 0x7f040191;
-        public static final int mfb_rotation_duration = 0x7f040192;
-        public static final int mfb_size = 0x7f040193;
-        public static final int mfb_type = 0x7f040194;
+        public static final int mfb_animate_favorite = 0x7f040189;
+        public static final int mfb_animate_unfavorite = 0x7f04018a;
+        public static final int mfb_bounce_duration = 0x7f04018b;
+        public static final int mfb_color = 0x7f04018c;
+        public static final int mfb_favorite_image = 0x7f04018d;
+        public static final int mfb_not_favorite_image = 0x7f04018e;
+        public static final int mfb_padding = 0x7f04018f;
+        public static final int mfb_rotation_angle = 0x7f040190;
+        public static final int mfb_rotation_duration = 0x7f040191;
+        public static final int mfb_size = 0x7f040192;
+        public static final int mfb_type = 0x7f040193;
     }
     public static final class drawable {
         private drawable() {}
@@ -39,10 +39,10 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int black = 0x7f0b0048;
-        public static final int heart = 0x7f0b00a1;
-        public static final int star = 0x7f0b011d;
-        public static final int white = 0x7f0b015e;
+        public static final int black = 0x7f0b0049;
+        public static final int heart = 0x7f0b00a5;
+        public static final int star = 0x7f0b0129;
+        public static final int white = 0x7f0b0168;
     }
     public static final class string {
         private string() {}
@@ -52,7 +52,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] MaterialFavoriteButton = { 0x7f04018a, 0x7f04018b, 0x7f04018c, 0x7f04018d, 0x7f04018e, 0x7f04018f, 0x7f040190, 0x7f040191, 0x7f040192, 0x7f040193, 0x7f040194 };
+        public static final int[] MaterialFavoriteButton = { 0x7f040189, 0x7f04018a, 0x7f04018b, 0x7f04018c, 0x7f04018d, 0x7f04018e, 0x7f04018f, 0x7f040190, 0x7f040191, 0x7f040192, 0x7f040193 };
         public static final int MaterialFavoriteButton_mfb_animate_favorite = 0;
         public static final int MaterialFavoriteButton_mfb_animate_unfavorite = 1;
         public static final int MaterialFavoriteButton_mfb_bounce_duration = 2;

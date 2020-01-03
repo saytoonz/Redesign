@@ -29,7 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="xute.storyview.StoryPlayer" />
+        <activity
+            android:name="com.nsromapa.say.frenzapp_redesign.ui.activities.StoryViewActivity"
+            android:theme="@style/StoryViewThem" />
     </application>
 
 </manifest>

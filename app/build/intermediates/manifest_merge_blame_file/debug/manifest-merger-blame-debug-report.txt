@@ -18,7 +18,7 @@
 12-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:7:5-22:19
+14-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:7:5-25:19
 15        android:name="com.nsromapa.say.frenzapp_redesign.App"
 15-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:8:9-28
 16        android:allowBackup="true"
@@ -51,9 +51,12 @@
 29-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:19:27-74
 30            </intent-filter>
 31        </activity>
-32        <activity android:name="xute.storyview.StoryPlayer" />
-32-->[com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:12:9-63
-32-->[com.github.bxute:StoryView:v1.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\4a13c812f8dcff47ddb18c2a9a99550a\jetified-StoryView-v1.0\AndroidManifest.xml:12:19-60
-33    </application>
-34
-35</manifest>
+32        <activity
+32-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:23:9-24:51
+33            android:name="com.nsromapa.say.frenzapp_redesign.ui.activities.StoryViewActivity"
+33-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:23:19-66
+34            android:theme="@style/StoryViewThem" />
+34-->D:\ANDROID\FrenzAppRedesign\app\src\main\AndroidManifest.xml:24:13-49
+35    </application>
+36
+37</manifest>

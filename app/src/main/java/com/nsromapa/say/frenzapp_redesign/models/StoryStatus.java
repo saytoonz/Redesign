@@ -1,36 +1,26 @@
 package com.nsromapa.say.frenzapp_redesign.models;
 
 
+import java.util.ArrayList;
+
 public class StoryStatus {
-    String storyId;
-    String posterId;
-    String posterName;
-    String posterImage;
-    String stories;
-    String postedTime;
-    String endingTime;
+    private String posterId;
+    private String posterName;
+    private String posterImage;
+    private String lastStory;
+    private ArrayList<StoriesData> stories;
 
 
-    public StoryStatus(String storyId, String posterId, String posterName,
-                       String posterImage, String stories, String postedTime,
-                       String endingTime) {
-        this.storyId = storyId;
+    public StoryStatus(String posterId, String posterName,
+                       String posterImage, String lastStory, ArrayList<StoriesData> mStoriesList) {
         this.posterId = posterId;
         this.posterName = posterName;
         this.posterImage = posterImage;
-        this.stories = stories;
-        this.postedTime = postedTime;
-        this.endingTime = endingTime;
+        this.stories = mStoriesList;
+        this.lastStory = lastStory;
     }
 
 
-    public String getStoryId() {
-        return storyId;
-    }
-
-    public void setStoryId(String storyId) {
-        this.storyId = storyId;
-    }
 
     public String getPosterId() {
         return posterId;
@@ -56,27 +46,19 @@ public class StoryStatus {
         this.posterImage = posterImage;
     }
 
-    public String getStories() {
+    public String getLastStory() {
+        return lastStory;
+    }
+
+    public void setLastStory(String lastStory) {
+        this.lastStory = lastStory;
+    }
+
+    public ArrayList<StoriesData> getStories() {
         return stories;
     }
 
-    public void setStories(String stories) {
+    public void setStories(ArrayList<StoriesData> stories) {
         this.stories = stories;
-    }
-
-    public String getPostedTime() {
-        return postedTime;
-    }
-
-    public void setPostedTime(String postedTime) {
-        this.postedTime = postedTime;
-    }
-
-    public String getEndingTime() {
-        return endingTime;
-    }
-
-    public void setEndingTime(String endingTime) {
-        this.endingTime = endingTime;
     }
 }

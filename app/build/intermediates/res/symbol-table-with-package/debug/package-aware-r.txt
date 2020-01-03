@@ -295,7 +295,6 @@ attr fontVariationSettings
 attr fontWeight
 attr foregroundInsidePadding
 attr gapBetweenBars
-attr gapBetweenProgressBar
 attr goIcon
 attr headerLayout
 attr height
@@ -465,7 +464,6 @@ attr passwordToggleDrawable
 attr passwordToggleEnabled
 attr passwordToggleTint
 attr passwordToggleTintMode
-attr pendingIndicatorColor
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
@@ -476,11 +474,9 @@ attr portions_count
 attr precision
 attr preserveIconSpacing
 attr pressedTranslationZ
-attr progressBarHeight
 attr progressBarPadding
-attr progressBarPrimaryColor
-attr progressBarSecondaryColor
 attr progressBarStyle
+attr progressCount
 attr progressMode
 attr queryBackground
 attr queryHint
@@ -509,11 +505,9 @@ attr showTitle
 attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
-attr singleStoryDisplayTime
 attr sizeToFit
 attr snackbarButtonStyle
 attr snackbarStyle
-attr spaceBetweenImageAndIndicator
 attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
@@ -529,8 +523,6 @@ attr state_lifted
 attr statusBarBackground
 attr statusBarScrim
 attr stiffness
-attr storyImageRadius
-attr storyItemIndicatorWidth
 attr strokeColor
 attr strokeWidth
 attr subMenuArrow
@@ -636,7 +628,6 @@ attr videoScale
 attr videoViewApiImpl
 attr videoViewApiImplLegacy
 attr viewInflaterClass
-attr visitedIndicatorColor
 attr voiceIcon
 attr windowActionBar
 attr windowActionBarOverlay
@@ -765,6 +756,7 @@ color gray_dark_transparent
 color gray_darkest
 color gray_light
 color gray_light_2
+color gray_scale
 color gray_transparent
 color green
 color green_bottom
@@ -1086,6 +1078,9 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color progress_max_active
+color progress_primary
+color progress_secondary
 color red
 color ripple_material_dark
 color ripple_material_light
@@ -1405,6 +1400,7 @@ dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen output_elevation
 dimen padding_map
+dimen progress_bar_height
 dimen progress_view_size
 dimen share_view_height
 dimen small_margin
@@ -1550,7 +1546,7 @@ drawable avd_show_password
 drawable background_white_button
 drawable badge_background
 drawable bg_like_circle_background
-drawable black_tranparent_gradient
+drawable black_transparent_gradient
 drawable blurred_header_background
 drawable blurred_text_background
 drawable bottom_shadow
@@ -1989,6 +1985,7 @@ id all
 id always
 id async
 id auto
+id back_progress
 id barrier
 id beginning
 id black
@@ -2008,8 +2005,10 @@ id chats_list_recyclerview_id
 id checkbox
 id checked
 id chronometer
+id circular_status_view
 id clip_horizontal
 id clip_vertical
+id close_imageView
 id collapseActionView
 id comment_button
 id container
@@ -2075,12 +2074,14 @@ id fitCenter
 id fitXY
 id fixed
 id forever
+id front_progress
 id ghost_view
 id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
 id heart
+id holder_linear_layout
 id home
 id homeAsUp
 id icon
@@ -2088,6 +2089,7 @@ id icon_group
 id ifRoom
 id image
 id image_holder
+id image_layout
 id indicator
 id indicator_holder
 id info
@@ -2109,6 +2111,7 @@ id listMode
 id list_item
 id main_container
 id masked
+id max_progress
 id media_actions
 id message
 id middle
@@ -2147,16 +2150,20 @@ id post_text
 id post_timestamp
 id post_user_image
 id post_username
+id posted_time
+id poster_image
 id poster_info
+id poster_name
 id posts_recyclerview
 id profile_image
-id progressBarView
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
 id react_layout
 id read
 id refreshLayout
+id reverse
 id right
 id right_icon
 id right_side
@@ -2187,6 +2194,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id skip
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -2208,10 +2216,7 @@ id star
 id start
 id stat_button
 id status_bar_latest_event_content
-id storyImage
-id storyTime
-id storyUserName
-id storyView
+id stories
 id story_recycler
 id stretch
 id submenuarrow
@@ -2268,6 +2273,7 @@ id video_pager_layout
 id video_view
 id video_view_api_impl_stub
 id view_offset_helper
+id view_stat_view
 id visible
 id white
 id withText
@@ -2330,7 +2336,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_story_player
+layout activity_story_view
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2383,6 +2389,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pausable_progress
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2718,6 +2725,7 @@ style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
 style SplashAppTheme
+style StoryViewThem
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -3072,8 +3080,7 @@ styleable Spinner android_entries android_popupBackground android_prompt android
 styleable SpringDotsIndicator dampingRatio dotsColor dotsCornerRadius dotsSize dotsSpacing dotsStrokeColor dotsStrokeWidth stiffness
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
-styleable StoryPlayerProgressView gapBetweenProgressBar progressBarHeight progressBarPrimaryColor progressBarSecondaryColor singleStoryDisplayTime
-styleable StoryView pendingIndicatorColor spaceBetweenImageAndIndicator storyImageRadius storyItemIndicatorWidth visitedIndicatorColor
+styleable StoriesProgressView progressCount
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchImageButton drawable_res_off drawable_res_on
 styleable TabItem android_icon android_layout android_text

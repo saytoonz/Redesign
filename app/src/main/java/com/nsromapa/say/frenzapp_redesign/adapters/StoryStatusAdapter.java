@@ -2,6 +2,8 @@ package com.nsromapa.say.frenzapp_redesign.adapters;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,14 +16,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.nsromapa.say.frenzapp_redesign.R;
+import com.nsromapa.say.frenzapp_redesign.models.StoriesData;
 import com.nsromapa.say.frenzapp_redesign.models.StoryStatus;
+import com.nsromapa.say.frenzapp_redesign.stories_lib.CircularStatusView;
+import com.nsromapa.say.frenzapp_redesign.ui.activities.StoryViewActivity;
+import com.nsromapa.say.frenzapp_redesign.utils.Utils;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
 import es.dmoral.toasty.Toasty;
-import xute.storyview.StoryModel;
-import xute.storyview.StoryView;
 
 public class StoryStatusAdapter extends RecyclerView.Adapter<StoryStatusAdapter.ViewHolder> {
     private List<StoryStatus> statusList;
@@ -38,7 +47,7 @@ public class StoryStatusAdapter extends RecyclerView.Adapter<StoryStatusAdapter.
     @NonNull
     @Override
     public StoryStatusAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view =  LayoutInflater.from(context).inflate(R.layout.item_status, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_status, parent, false);
         return new ViewHolder(view);
     }
 
@@ -47,25 +56,43 @@ public class StoryStatusAdapter extends RecyclerView.Adapter<StoryStatusAdapter.
         StoryStatus list = statusList.get(position);
 
         Glide.with(context)
-                .load(list.getStories())
+                .load(list.getLastStory())
                 .into(holder.first_stat);
-        if (list.getPosterId().equals("2")){
-            holder.storyView.setVisibility(View.GONE);
-            holder.add_new_story.show();
-            holder.add_new_story.setOnClickListener(v -> {
-                Toasty.success(context, "Create new Story").show();
-            });
-        }else{
-            holder.storyView.setVisibility(View.VISIBLE);
-            holder.add_new_story.hide();
-            holder.storyView.resetStoryVisits();
-            ArrayList<StoryModel> uris = new ArrayList<>();
-            uris.add(new StoryModel("https://www.planwallpaper.com/static/images/animals-4.jpg",
-                    list.getPosterName(), list.getPostedTime()));
-            uris.add(new StoryModel("https://static.boredpanda.com/blog/wp-content/uuuploads/albino-animals/albino-animals-3.jpg","Grambon","10:15 PM"));
 
-            holder.storyView.setImageUris(uris);
+        Glide.with(context)
+                .load(list.getPosterImage())
+                .into(holder.poster_image);
+
+        holder.poster_info.setText(list.getPosterName());
+
+        if (list.getPosterId().equals(Utils.getUserUid())) {
+            holder.add_new_story.show();
+            holder.add_new_story.setOnClickListener(v -> Toasty.success(context, "Create new Story").show());
+        } else {
+            holder.circularStatusView.setVisibility(View.VISIBLE);
+            holder.add_new_story.hide();
         }
+
+        holder.circularStatusView.setPortionsCount(list.getStories().size());
+        holder.circularStatusView.setPortionsColor(context.getResources().getColor(R.color.colorAccent));
+        holder.circularStatusView.setOnClickListener(v -> {
+            if (list.getStories().size() > 0) {
+                Intent intent = new Intent(context, StoryViewActivity.class);
+                intent.putExtra("storiesList", list.getStories());
+                intent.putExtra("posterName", list.getPosterName());
+                intent.putExtra("posterImage", list.getPosterImage());
+                context.startActivity(intent);
+            }
+        });
+        holder.view_stat_view.setOnClickListener(v -> {
+            if (list.getStories().size() > 0) {
+                Intent intent = new Intent(context, StoryViewActivity.class);
+                intent.putExtra("storiesList", list.getStories());
+                intent.putExtra("posterName", list.getPosterName());
+                intent.putExtra("posterImage", list.getPosterImage());
+                context.startActivity(intent);
+            }
+        });
 
     }
 
@@ -74,14 +101,19 @@ public class StoryStatusAdapter extends RecyclerView.Adapter<StoryStatusAdapter.
         return statusList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
-        StoryView storyView;
+    class ViewHolder extends RecyclerView.ViewHolder {
+        CircularStatusView circularStatusView;
+        CircleImageView poster_image;
         FloatingActionButton add_new_story;
         ImageView first_stat;
         TextView poster_info;
-        public ViewHolder(@NonNull View itemView) {
+        View view_stat_view;
+
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
-            storyView = itemView.findViewById(R.id.storyView);
+            view_stat_view = itemView.findViewById(R.id.view_stat_view);
+            circularStatusView = itemView.findViewById(R.id.circular_status_view);
+            poster_image = itemView.findViewById(R.id.poster_image);
             add_new_story = itemView.findViewById(R.id.add_new_story);
             first_stat = itemView.findViewById(R.id.first_stat);
             poster_info = itemView.findViewById(R.id.poster_info);

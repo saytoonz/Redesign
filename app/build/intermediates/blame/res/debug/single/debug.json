@@ -500,16 +500,16 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_a_photo_black_24dp.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_add_a_photo_black_24dp.xml"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_notification.png.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\mipmap-hdpi\\ic_notification.png"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_no_result.png.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable-mdpi\\no_result.png"
     },
     {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_notification.png.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\mipmap-hdpi\\ic_notification.png"
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_a_photo_black_24dp.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\ic_add_a_photo_black_24dp.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -566,6 +566,10 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_transparent_gradient.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\black_transparent_gradient.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -658,10 +662,6 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_tranparent_gradient.xml.flat",
-        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\black_tranparent_gradient.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -1602,10 +1602,6 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_bubble_online_large.xml.flat",
         "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\drawable\\shape_bubble_online_large.xml"
-    },
-    {
-        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_story_player.xml.flat",
-        "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\4a13c812f8dcff47ddb18c2a9a99550a\\jetified-StoryView-v1.0\\res\\layout\\activity_story_player.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
@@ -3700,6 +3696,10 @@
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\2444e4ac8bf5e41fc0222e63298b7bae\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_story_view.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\layout\\activity_story_view.xml"
+    },
+    {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
@@ -4222,6 +4222,10 @@
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
         "source": "C:\\Users\\Saytoonz\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\layout_pausable_progress.xml.flat",
+        "source": "D:\\ANDROID\\FrenzAppRedesign\\app\\src\\main\\res\\layout\\pausable_progress.xml"
     },
     {
         "merged": "D:\\ANDROID\\FrenzAppRedesign\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_public_white_24dp.png.flat",
